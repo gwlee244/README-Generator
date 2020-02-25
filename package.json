@@ -1,0 +1,19 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "create a command-line README generator that uses an API call to GitHubto retrieve user information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwlee244/README-Generator.git"
+  },
+  "author": "Gene Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwlee244/README-Generator/issues"
+  },
+  "homepage": "https://github.com/gwlee244/README-Generator#readme"
+}
