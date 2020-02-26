@@ -1,7 +1,10 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
+const axios = require("axios");
 
-    inquirer.prompt([
+async function promptUser() {
+    const userData = await inquirer
+    .prompt([
         {
             type: "input",
             name: "githubName",
@@ -22,7 +25,32 @@ const inquirer = require("inquirer");
             name: "projectInstallation",
             message: "Provide instructions on how to get the application to run."
         },
-    ])
-    .then(answers => {
-        console.info("Answer:", answers);
-    });
+        {
+            type: "input",
+            name: "projectUsage",
+            message: "What is the application used for?"
+        },
+        {
+            type: "list",
+            name: "projectLicense",
+            message: "Which license will be used?",
+            choices: [
+                'ISC',
+                'MIT',
+                'GNU',
+                'Apache'
+            ]
+        },
+        {
+            type: "input",
+            name: "projectContributer",
+            message: "Who are the contributers to the project?"
+        },
+        {
+            type: "input",
+            name: "projectTest",
+            message: "What are the steps for testing?"
+        }
+    ]);
+        console.log(answers);
+    }
