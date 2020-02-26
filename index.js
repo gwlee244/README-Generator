@@ -51,6 +51,6 @@ async function promptUser() {
             name: "projectTest",
             message: "What are the steps for testing?"
         }
-    ]);
-        console.log(answers);
-    }
+    ])
+}
+promptUser();
