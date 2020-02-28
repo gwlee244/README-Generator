@@ -24,4 +24,4 @@
     test
 
     ![profile picture](https://avatars2.githubusercontent.com/u/55607961?v=4)
-    <img src="https://avatars2.githubusercontent.com/u/55607961?v=4" style="border-radius: 16px" width="30" />
+    <img src="https://avatars0.githubusercontent.com/u/55607961?s=460&amp;v=4" style="border-radius: 16px" width="30" />
