@@ -1,9 +1,9 @@
 
     # README Generator
 
-    ![license badge] (https://img.shields.io/badge/license-MIT-blueviolet?style=flat-square&logo=appveyor)
+    ![license badge] (https://img.shields.io/badge/license-GNU-blueviolet?style=flat-square&logo=appveyor)
 
-    ## This app generates a README.md file for your project
+    ## test
 
     ## Table of Contents
     1. [Installation](#Installation)
@@ -13,16 +13,15 @@
     5. [Testing](#Testing)
 
     ## 1. Installation
-    In the terminal window type: node index.js
+    test
     ## 2. Usage
-    To generate a README.md file
+    test
     ## 3. License
-    MIT
+    GNU
     ## 4. Contributers
-    none
+    test
     ## 5. Testing
-    There are no testing steps
+    test
 
     ![profile picture](https://avatars2.githubusercontent.com/u/55607961?v=4)
-
-    ---
+    <img src="https://avatars2.githubusercontent.com/u/55607961?v=4" style="border-radius: 16px" width="30" />
