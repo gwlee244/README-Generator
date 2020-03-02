@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 //const axios = require("axios");
-const {gitUser} = require('./gitApi.js');
+const {gitUser} = require("./gitApi.js");
 
 const userInput = [
     {
@@ -70,6 +70,7 @@ writeToFile();
 
 function generateReadMe(data) {
     const badge = () => {
+        if (data.projectLicense !== "None")
             return `![license badge] (https://img.shields.io/badge/license-${encodeURI(data.projectLicense)}-blueviolet?style=flat-square&logo=appveyor)`
             return ''
     }
@@ -79,28 +80,26 @@ function generateReadMe(data) {
 
     ${badge()}
 
-    > ## ${data.projectDescription}
+    # ${data.projectDescription}
 
-    ## Table of Contents
+    # Table of Contents
     1. [Installation](#Installation)
     2. [Usage](#Usage)
     3. [License](#License)
     4. [Contributers](#Contributers)
     5. [Testing](#Testing)
 
-    ## 1. Installation
+    1. Installation
     ${data.projectInstallation}
-    ## 2. Usage
+    2. Usage
     ${data.projectUsage}
-    ## 3. License
+    3. License
     ${data.projectLicense}
-    ## 4. Contributers
+    4. Contributers
     ${data.projectContributer}
-    ## 5. Testing
+    5. Testing
     ${data.projectTest}
 
-    ![profile picture](${data.avatar_url})
-
-    ---
+    ![picture](${data.avatar_url})
     `;
     }
