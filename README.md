@@ -1,7 +1,6 @@
 ![license badge](https://img.shields.io/badge/license-ISC-blueviolet?style=flat-square&logo=appveyor)
 ![forthebadge](https://forthebadge.com/images/badges/designed-in-etch-a-sketch.svg)
         
-*
         # README Generator
 
         # test
