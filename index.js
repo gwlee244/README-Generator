@@ -59,16 +59,16 @@ inquirer
     const readMe =`![license badge](https://img.shields.io/badge/license-${encodeURI(answer.projectLicense)}-blueviolet?style=flat-square&logo=appveyor)
     ![forthebadge](https://forthebadge.com/images/badges/designed-in-etch-a-sketch.svg)
 
+# ${answer.projectTitle}
+
+# ${answer.projectDescription}
+
 ## Table of Contents
 \n* [Installation](#Installation)
 \n* [Usage](#Usage)
 \n* [License](#License)
 \n* [Contributors](#Contributors)
 \n* [Testing](#Testing)
-
-# ${answer.projectTitle}
-
-# ${answer.projectDescription}
 
 ## Installation
 # ${answer.projectInstallation}
@@ -85,10 +85,12 @@ inquirer
 ## Testing
 # ${answer.projectTest}
 
+## Please submit any questions to:
 # ![${res.data.html_url}](${res.data.avatar_url})
 
-        `
 
+        `
+    
     fs.writeFile("README.md", readMe, function(){
     });
     console.log("You successfully generated a README.md file!");
