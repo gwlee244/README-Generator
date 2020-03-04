@@ -37,3 +37,4 @@
 
 Please contact me if you have any questions: gwlee244@gmail.com
 
+![README Demo](./gif-readme-gen.gif)
